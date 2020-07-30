@@ -37,7 +37,7 @@ public class Program {
 
 
 
-using System;
+
 public class Program {
 	public static int PosCom(int n) {
 		return (int)Math.Pow(2,n);
