@@ -32,7 +32,11 @@ Solution 1
 */
 
 
-
+public class Program {
+	public static int solutions(int a, int b, int c) {
+		int x = b*b - 4*a*c; return x > 0 ? 2 : x < 0 ? 0 : 1;
+	}
+}
 
 /*
 
@@ -41,7 +45,15 @@ Solution 2
 */
 
 
-
+public class Program {
+	public static int solutions(int a, int b, int c) {
+		int delta = b*b - 4*a*c;
+		int nr = 0;
+		if(delta > 0) nr = 2;
+		else if(delta == 0) nr = 1;
+		return nr;
+	}
+}
 
 
 /*
