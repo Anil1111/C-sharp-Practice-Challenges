@@ -1,4 +1,4 @@
-/ Language: C#
+// Language: C#
 // Level: 8kyu
 // Name of Problem: Century From Year
 
