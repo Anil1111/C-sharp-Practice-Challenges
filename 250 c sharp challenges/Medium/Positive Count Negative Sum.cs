@@ -34,6 +34,19 @@ Solution 1
 */
 
 
+using System.Linq;
+public class Program 
+{
+    public static int[] CountPosSumNeg(double[] arr)
+    {
+      return (arr.Length == 0)? new int[0] : new int[]{ arr.Count(x => x > 0), (int)arr.Where(y => y <= 0).Aggregate((a, b) => a + b) };
+    }
+}
+
+
+
+
+
 
 
 /*
@@ -43,7 +56,22 @@ Solution 2
 */
 
 
-//using System.Linq;
+
+public class Program 
+{
+    public static int[] CountPosSumNeg(double[] arr) 
+    {
+      if(arr.Length == 0)
+        return new int[0];
+      int posCount = arr.Where(n => n > 0).Count();
+            int negSum = (int)arr.Where(n => n < 0).Sum();
+            return new int[2] { posCount, negSum };
+    }
+}
+
+
+
+
 
 
 
@@ -57,6 +85,20 @@ Solution 3
 */
 
 
+
+
+
+using System.Linq;
+public class Program 
+{
+    public static int[] CountPosSumNeg(double[] nums) 
+    {
+      	if (!nums.Any()) return new int[0];
+      	var pos = nums.Where(n => n > 0);
+      	var neg = nums.Where(n => n < 0);
+      	return new int[2]{pos.Count(), (int)neg.Sum()};
+    }
+}
 
 
 
