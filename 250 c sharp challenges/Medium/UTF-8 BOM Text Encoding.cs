@@ -26,7 +26,11 @@ Solution 1
 */
 
 
-
+using System.Text;
+public class Program
+{
+	public static byte[] GetUTF8BOM() => UTF8Encoding.UTF8.GetPreamble();
+}
 
 /*
 
@@ -34,20 +38,10 @@ Solution 2
 
 */
 
+using System.Text;
+public class Program
+{
+	public static byte[] GetUTF8BOM() => new UTF8Encoding(true).GetPreamble();
+}
 
 
-
-
-/*
-
-Solution 3
-
-*/
-
-
-
-/*
-
-Solution 4
-
-*/
