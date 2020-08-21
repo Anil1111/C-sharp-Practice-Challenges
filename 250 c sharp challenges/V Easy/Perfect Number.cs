@@ -38,6 +38,26 @@ Solution 1
 
 */
 
+using System;
+using System.Collections.Generic;
+
+public class Program 
+{
+    public static bool CheckPerfect(int num) 
+    {
+			List<int> factors = new List<int>();
+			for(int i=1;i<num;i++){
+				if(num%i==0){
+					factors.Add(i);
+				}
+			}
+			var total=0;
+			for(int i=0;i<factors.Count;i++){
+				total+=factors[i];
+			}
+			return total==num;
+    }
+}
 
 
 
@@ -48,7 +68,29 @@ Solution 2
 */
 
 
+using System;
+using System.Collections.Generic;
+using System.Linq;
 
+public class Program 
+{
+    public static bool CheckPerfect(int num) 
+    {
+		return GetFactors(num).Sum() == num;
+    }
+  
+  	public static List<int> GetFactors(int number) {
+    	List<int> factors = new List<int>();
+	  
+		for(int factor = 1; factor < number; factor += 1) {
+			if(number % factor == 0) {
+				factors.Add(factor);
+			}
+		}
+	  
+    	return factors;
+	}
+}
 
 
 /*
@@ -56,6 +98,33 @@ Solution 2
 Solution 3
 
 */
+
+
+using System.Collections.Generic;
+using System;
+
+public class Program 
+{
+    public static bool CheckPerfect(int num) 
+    {
+			int sum = 0;
+			double sqrt = Math.Ceiling(Math.Sqrt(num));
+			List<int> nums = new List<int>();
+			for (int i = 1; i < sqrt; i++)
+			{
+				if (num % i == 0)
+				{
+					nums.Add(i);
+					nums.Add(num/i);
+				}
+			}
+			foreach (int val in nums)
+			{
+				sum += val;
+			}
+			return sum/2 == num;
+    }
+}
 
 
 
