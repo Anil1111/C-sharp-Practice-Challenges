@@ -1,6 +1,5 @@
 /*
 
-
 Hamming Distance
 Hamming distance is the number of characters that differ between two strings.
 
@@ -25,9 +24,9 @@ Both strings will have the same length.
 
 
 
-
-
-
+//#############################################################
+//#                        MY SOLUTIONS                       #
+//#############################################################
 
 
 /*

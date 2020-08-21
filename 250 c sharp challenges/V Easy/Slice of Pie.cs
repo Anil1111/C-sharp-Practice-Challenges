@@ -30,6 +30,14 @@ If you're really stuck, unlock solutions in the Solutions tab.
 */
 
 
+
+
+//#############################################################
+//#                        MY SOLUTIONS                       #
+//#############################################################
+
+
+
 public class Program 
 {
     public static bool EqualSlices(int total, int people, int each) 

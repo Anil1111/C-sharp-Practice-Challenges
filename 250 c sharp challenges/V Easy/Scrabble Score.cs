@@ -1,3 +1,12 @@
+
+
+//#############################################################
+//#                        MY SOLUTIONS                       #
+//#############################################################
+
+
+
+
 using System.Collections.Generic;
 
 public static class ScrabbleScore

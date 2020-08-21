@@ -19,10 +19,9 @@ A profitable gamble is a game that yields a positive net profit, where net profi
 
 
 
-
-
-
-
+//#############################################################
+//#                        MY SOLUTIONS                       #
+//#############################################################
 
 
 

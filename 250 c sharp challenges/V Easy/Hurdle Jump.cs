@@ -20,7 +20,9 @@ Return true for the edge case of an empty array of hurdles. (Zero hurdles means 
 
 
 
-
+//#############################################################
+//#                        MY SOLUTIONS                       #
+//#############################################################
 
 
 

@@ -12,14 +12,13 @@ Notes
 a, e, i, o, u are considered vowels (not y).
 All test cases are one word and only contain letters.
 
-
-
 */
 
 
 
-
-
+//#############################################################
+//#                        MY SOLUTIONS                       #
+//#############################################################
 
 
 

@@ -16,6 +16,13 @@ Tests are case sensitive (return "even" or "odd" in lowercase).
 */
 
 
+
+//#############################################################
+//#                        MY SOLUTIONS                       #
+//#############################################################
+
+
+
 public class Program
 {
 	public static string IsEvenOrOdd(int num)

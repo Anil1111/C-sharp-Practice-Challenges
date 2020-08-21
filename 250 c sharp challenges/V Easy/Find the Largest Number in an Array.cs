@@ -15,6 +15,15 @@ If you're really stuck, unlock solutions in the Solutions tab.
 */
 
 
+
+
+//#############################################################
+//#                        MY SOLUTIONS                       #
+//#############################################################
+
+
+
+
 using System.Linq;
 
 public class Program

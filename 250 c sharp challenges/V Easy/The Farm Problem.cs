@@ -23,6 +23,9 @@ Remember that the farmer wants to know the total number of legs and not the tota
 
 
 
+//#############################################################
+//#                        MY SOLUTIONS                       #
+//#############################################################
 
 
 

@@ -13,6 +13,14 @@ a will always be greater than or equal to b.
 */
 
 
+
+//#############################################################
+//#                        MY SOLUTIONS                       #
+//#############################################################
+
+
+
+
 public class Program 
 {
     public static bool dividesEvenly(int a, int b) 

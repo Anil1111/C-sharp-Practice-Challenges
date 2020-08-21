@@ -13,6 +13,13 @@ Return 0 if given an empty array.
 All array items are of the type bool (true or false).
 */
 
+
+//#############################################################
+//#                        MY SOLUTIONS                       #
+//#############################################################
+
+
+
 using System;
 using System.Linq;
 

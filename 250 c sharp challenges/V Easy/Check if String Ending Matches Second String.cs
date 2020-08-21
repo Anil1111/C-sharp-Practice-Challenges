@@ -25,11 +25,12 @@ All test cases are valid one word strings.
 
 
 
-/*
 
-Solution 1
+//#############################################################
+//#                        MY SOLUTIONS                       #
+//#############################################################
 
-*/
+
 
 public class Program 
 {

@@ -15,6 +15,13 @@ match("mask", "mAskinG") ➞ false
 
 
 
+//#############################################################
+//#                        MY SOLUTIONS                       #
+//#############################################################
+
+
+
+
 public class Program
 {
     public static bool match(string s1, string s2)
