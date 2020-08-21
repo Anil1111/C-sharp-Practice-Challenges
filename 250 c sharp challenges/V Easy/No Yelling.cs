@@ -23,17 +23,9 @@ Keep sentences that do not have question/exclamation marks the same.
 */
 
 
-
-
-
-
 //#############################################################
 //#                        MY SOLUTIONS                       #
 //#############################################################
-
-
-
-
 
 
 /*
@@ -42,7 +34,21 @@ Solution 1
 
 */
 
-
+public class Program 
+{
+    public static string NoYelling(string phrase) 
+    {
+	    if (phrase.EndsWith("!")) {
+		  return phrase.TrimEnd('!') + "!";
+		}
+	  
+	    if (phrase.EndsWith("?")) {
+		  return phrase.TrimEnd('?') + "?";
+		}
+	  
+	    return phrase;
+    }
+}
 
 
 /*
@@ -52,6 +58,15 @@ Solution 2
 */
 
 
+// using System.Text.RegularExpressions;
+
+public class Program 
+{
+    public static string NoYelling(string phrase) 
+    {
+			return Regex.Replace(phrase, @"([?|!])\1*$", @"$1");
+    }
+}
 
 
 
@@ -60,6 +75,28 @@ Solution 2
 Solution 3
 
 */
+
+public class Program 
+{
+    public static string NoYelling(string phrase) 
+    {
+			
+			int i=0;
+			while(phrase[phrase.Length-i-1]=='?' || phrase[phrase.Length-i-1]=='!') {
+				i++;
+			}
+			string s="";
+			for(int j=0; j<phrase.Length-i; j++){
+				s=s+phrase[j];
+			}
+			
+			if(i>0){
+				s=s+phrase[phrase.Length-1];
+			}
+			
+			return s;
+    }
+}
 
 
 

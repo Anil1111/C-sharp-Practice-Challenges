@@ -37,7 +37,19 @@ Solution 1
 
 */
 
-
+public class Program
+{
+    public static bool isFactorial(int n) 
+		{
+			int j = 1;
+			for (int i = 1; i < n; i++) {
+				j *= i;
+				if (j == n)
+				  return true;
+			}	
+			return false;
+		}
+}
 
 
 /*
