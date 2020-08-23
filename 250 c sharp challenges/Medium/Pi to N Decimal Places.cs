@@ -19,6 +19,10 @@ The return value must be a number (add suffix -m to returning number), not a str
 
 
 
+//#############################################################
+//#                        MY SOLUTIONS                       #
+//#############################################################
+
 
 
 

@@ -16,12 +16,14 @@ Notes
 "y" is not considered a vowel.
 Expect a valid string for all test cases.
 
-
-
 */
 
 
 
+
+//#############################################################
+//#                        MY SOLUTIONS                       #
+//#############################################################
 
 
 

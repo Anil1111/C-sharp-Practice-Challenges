@@ -20,6 +20,10 @@ Output string must be two numbers separated by a single space, and highest numbe
 
 
 
+//#############################################################
+//#                        MY SOLUTIONS                       #
+//#############################################################
+
 
 
 

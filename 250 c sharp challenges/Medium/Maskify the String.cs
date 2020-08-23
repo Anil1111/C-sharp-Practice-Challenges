@@ -1,6 +1,5 @@
 /*
 
-
 Maskify the String
 Usually when you sign up for an account to buy something, your credit card number, phone number or answer to a secret question is partially obscured in some way. Since someone could look over your shoulder, you don't want that shown on your screen. Hence, the website masks these strings.
 
@@ -17,9 +16,14 @@ Maskify("") ➞ ""
 Notes
 The maskify function must accept a string of any length.
 An empty string should return an empty string (fourth example above).
+
 */
 
 
+
+//#############################################################
+//#                        MY SOLUTIONS                       #
+//#############################################################
 
 
 
